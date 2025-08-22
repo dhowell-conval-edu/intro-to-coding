@@ -20,6 +20,11 @@ h1{
 .item{
     height: 400px;
     width: 400px;
+    transition: 0.3s ease;
+}
+
+.item:hover{
+    scale: 1.5;
 }
 
 @media only screen and (max-width: 600px) {
