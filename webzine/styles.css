@@ -8,6 +8,13 @@
     src: url(fonts/cmunrm.ttf)
 }
 
+
+@media only screen and (max-width: 600px) {
+body {
+        background-color: lightblue;
+     }
+}
+
 body {
     font-family: 'computer modern roman';
     font-size: 24px;
