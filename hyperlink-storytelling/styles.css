@@ -1,0 +1,42 @@
+body{
+}
+
+.container{
+    display: flex;
+    width: 1600px;
+    margin: auto;
+    padding-top: 200px;
+}
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.item{
+    height: 400px;
+    width: 400px;
+    transition: 0.3s ease;
+}
+
+.item:hover{
+    scale: 1.5;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      width: 400px;
+      margin: auto;
+    }
+
+    .container{
+        display: block;
+    }
+
+    .item{ghtblue;
+    }
+  }
